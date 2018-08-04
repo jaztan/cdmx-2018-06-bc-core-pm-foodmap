@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-
 <body>
     <h1>Mapa de Comida</h1>
-    <a href="#openModal">!Bienvenido¡</a>
-
+    <input type="button" id="bienvenidx" value="BienvenidX">
+    <p id="saludo"></p>
+    <a href="#openModal">!Quienes somos¡</a>
     <div id="openModal" class="modalDialog">
         <div>
             <a href="#close" title="Close" class="close">X</a>
             <h2>"¿Te sientes perdido y con mucha hambre?"</h2>
             <p>"No sufras mas,yo te ayudare"</p>
-            <p>!Soy el mapa,soy el mapa,soy el mapa!</p>
             <p>Puedes seleccionar en "Mi menú" y encontrar una gran variedad de exquisita comida.</p>
         </div>
     </div>
-<h2>Mi menú</h2>
-<form>
-    <ul>
-        <li>
-            LIsta de comida 
-        </li>
-    </ul>
-</form>
-
     <script src="firebase.js"></script>
     <script src="index.js"></script>
     <script src="menu.js"></script>
