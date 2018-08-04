@@ -23,17 +23,17 @@
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background:  rgba(233, 150, 95, 0.8);
+	background:  rgba(79, 36, 199, 0.8);
 	background: -moz-linear-gradient(blue);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(blue);
+	background: -o-linear-gradient(blue);
   -webkit-transition: opacity 400ms ease-in;
 -moz-transition: opacity 400ms ease-in;
 transition: opacity 400ms ease-in;
 }
 .close {
 	background: #606061;
-	color: #FFFFFF;
+	color: blue;
 	line-height: 25px;
 	position: absolute;
 	right: -12px;
@@ -41,7 +41,7 @@ transition: opacity 400ms ease-in;
 	top: -10px;
 	width: 24px;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: sans-serif;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;

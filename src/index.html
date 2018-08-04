@@ -9,8 +9,37 @@
 </head>
 <body>
     <h1>Mapa de Comida</h1>
+    <form>
     <input type="button" id="bienvenidx" value="BienvenidX">
     <p id="saludo"></p>
+    </form>
+    <form>
+        <input type="button" id="ubicacion" value="Ubicacion">
+        <p id="lugar"></p>
+        </form>
+        <select>
+            <option id="menu"   value="menu">Menú</option>
+            <option id="tacos"   value="tacos">Tacos</option>
+            <option id="dorados" value="dorados">Dorados</option>
+            <option id="guisado" value="guisado">Guisado</option>
+          </select>
+          <select>
+            <option id="precios"   value="precios">Precios</option>
+            <option id="economico"   value="economico">$20-$30</option>
+            <option id="regular" value="regular">$40-$50</option>
+            <option id="alto" value="alto">$60-$80</option>
+          </select>
+    <form>
+        <ul id="precio">
+            <li>$20-$25</li>
+            <li>$25-$30</li>
+            <li>$30-$35</li>
+          </ul>
+    </form>
+
+
+
+
     <a href="#openModal">!Quienes somos¡</a>
     <div id="openModal" class="modalDialog">
         <div>
@@ -20,6 +49,7 @@
             <p>Puedes seleccionar en "Mi menú" y encontrar una gran variedad de exquisita comida.</p>
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
     <script src="firebase.js"></script>
     <script src="index.js"></script>
     <script src="menu.js"></script>
