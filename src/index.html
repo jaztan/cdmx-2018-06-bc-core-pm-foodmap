@@ -9,11 +9,11 @@
 </head>
 <body>
     <h1>Mapa de Comida</h1>
-    <form>
+    <form id="introduccion">
     <input type="button" id="bienvenidx" value="BienvenidX">
     <p id="saludo"></p>
     </form>
-    <form>
+    <form id="opciones">
         <input type="button" id="ubicacion" value="Ubicacion">
         <p id="lugar"></p>
         </form>
@@ -22,6 +22,7 @@
             <option id="tacos"   value="tacos">Tacos</option>
             <option id="dorados" value="dorados">Dorados</option>
             <option id="guisado" value="guisado">Guisado</option>
+            <option id="carnitas"   value="carnitas">Carnitas</option>
           </select>
           <select>
             <option id="precios"   value="precios">Precios</option>
@@ -36,20 +37,19 @@
             <li>$30-$35</li>
           </ul>
     </form>
-
-
-
-
     <a href="#openModal">!Quienes somos¡</a>
     <div id="openModal" class="modalDialog">
         <div>
             <a href="#close" title="Close" class="close">X</a>
-            <h2>"¿Te sientes perdido y con mucha hambre?"</h2>
-            <p>"No sufras mas,yo te ayudare"</p>
-            <p>Puedes seleccionar en "Mi menú" y encontrar una gran variedad de exquisita comida.</p>
+            <h2>""</h2>
         </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <! -  Firebase  ->
+<script src = " https://www.gstatic.com/firebasejs/3.3.0/firebase.js " > </script> 
+ 
+<! -  GeoFire  ->
+<script src = " https://cdn.firebase.com/libs/geofire/4.1.2/geofire.min.js " > </script> 
     <script src="firebase.js"></script>
     <script src="index.js"></script>
     <script src="menu.js"></script>
