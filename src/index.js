@@ -12,11 +12,11 @@ btnLugar.addEventListener('click', event => {
 
     let lugar = prompt('Ingresa tu ubicacion', "Insurgentes Sur");
     if (lugar != null) {
-        document.getElementById('lugar').innerHTML=
+        document.getElementById('lugar').innerHTML =
             'Ubicacion ' + lugar + '!¿Que te gustaria comer hoy?¡'
     };
 });
-var test = document.getElementById("precio");
+let test = document.getElementById("precio");
 
 
 // this handler will be executed only once when the cursor moves over the unordered list

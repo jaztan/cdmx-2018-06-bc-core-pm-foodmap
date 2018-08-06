@@ -3,6 +3,7 @@
 Crea una web-app que a través de un input pueda filtrar los restaurantes
 que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
 puedes crear una lista de restaurantes en un arreglo, en un objeto, consumir una API, etc. Lo importante es que el contenido debe ser dinámico y no estático y el diseño es totalmente libre)*.
+# No se uso la api de google maps porque cobra 200 al mes url(https://vextramedia.com/google-maps-api-pasa-a-ser-de-pago/)
 
 #### Flujo de la aplicación.
 
