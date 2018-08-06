@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mapa de comida</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://maps.google.com.maps/api/js?sensor=true"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-
 <body>
     <h1>¡Tacos a mi !</h1>
     <h2>Te ayudaremos a encontrar los mejores tacos de la ciudad,para poder aplacar esa hambre feroz.</h2>
-    <img src ="../imagenes/taco.gif">
-
     <form id="introduccion">
         <input type="button" id="bienvenidx" value="BienvenidX">
         <p id="saludo"></p>
@@ -22,42 +19,28 @@
         <input type="button" id="ubicacion" value="Ubicacion">
         <p id="lugar"></p>
     </form>
-    <button id="mostrarUbi">Mostrar ubicacion</button>
-    <div id="map"></div>
-        </div>
-        <select>
-            <option id="menu" value="menu">Menú</option>
+        <select id="mi-menu">
             <option id="tacos" value="tacos">Tacos</option>
-            <option id="dorados" value="dorados">Dorados</option>
             <option id="guisado" value="guisado">Guisado</option>
             <option id="carnitas" value="carnitas">Carnitas</option>
-        </select>
-        <select>
-            <option id="precios" value="precios">Precios</option>
-            <option id="economico" value="economico">$20-$30</option>
-            <option id="regular" value="regular">$40-$50</option>
-            <option id="alto" value="alto">$60-$80</option>
-        </select>
-        <form>
-            <ul id="precio">
-                <li>$20-$25</li>
-                <li>$25-$30</li>
-                <li>$30-$35</li>
-            </ul>
-        </form>
+            <option id="cecina" value="cecina">Cecina</option>
+            <option id="pastor" value="pastor">Pastor</option>
+        </select>   
+        <h3 id="eleccion"></h3>
         <a href="#openModal">!Quienes somos¡</a>
         <div id="openModal" class="modalDialog">
             <div>
                 <a href="#close" title="Close" class="close">X</a>
                 <h2>
-                    <img src="../imagenes/tacosami.gif"> </h2>
+                    <p>Te mostramos los tacos mas votados.</p>
+                    <img id ="tami" src="../imagenes/tacosami.gif"> 
+                </h2>
             </div>
         </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="index.js"></script>
-      
         <script src="menu.js"></script>
         <script src="mapa.js"></script>
-
+        
 </body>
-
 </html>
