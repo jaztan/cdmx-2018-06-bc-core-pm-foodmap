@@ -24,16 +24,12 @@
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background:  rgba(79, 36, 199, 0.8);
-	background: -moz-linear-gradient(blue);
-	background: -webkit-linear-gradient(blue);
-	background: -o-linear-gradient(blue);
-  -webkit-transition: opacity 400ms ease-in;
--moz-transition: opacity 400ms ease-in;
-transition: opacity 400ms ease-in;
+
 }
+/*caracteristicas del botn x  */
 .close {
-	background: #606061;
-	color: blue;
+	background:white;
+	color: black;
 	line-height: 25px;
 	position: absolute;
 	right: -12px;
@@ -47,12 +43,12 @@ transition: opacity 400ms ease-in;
 	border-radius: 12px;
 	-moz-box-shadow: 1px 1px 3px #000;
 	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px white;
 }
 .close:hover { background: #080808; }
 
 .taco {
-	 width:150px;
+	 width:9px;
 }
 .map-canvas{
 	width: 400px;
