@@ -8,25 +8,43 @@
 
 ### Te mostraremos los mejores  tacos de la ciudad ,para que puedas saborear tu deliciosa cultura.
 
+## Para poder crear esta pagina ,se ha realizado un estudio de mercado para ver las aplicaciones existentes.
+
 Nombre de la app  |           Rappi      |
 -------------     | ---------------------|
-Nombre app mobile |Rappi              |
-Pais de Origen    |Colombia           |
-Selección Idiomas |si                    |
+Nombre app mobile |Rappi                 |
+Pais de Origen    |Colombia              |
+Selección Idiomas |si                    |
 Interactiva       |si                    |
 Intuitiva         |si                    |
 Gratuita          |si                    |
-Descargas         |5,000                 |
-Android           |si                    |
-Itunes            |no                    |
-Juego             |si                    |
-Edad Minima       |12                    | 
+web               |si                    |
+mobil             |si                    |
 
 
+Nombre de la app  |         Uber Eats    |
+-------------     | ---------------------|
+Nombre app mobile |Uber Eats             |
+Pais de Origen    |San Francisco         |
+Selección Idiomas |si                    |
+Interactiva       |si                    |
+Intuitiva         |si                    |
+Gratuita          |si                    |
+web               |si                    |
+mobil             |si                    |
 
+Nombre de la app  | iFood                |
+-------------     | ---------------------|
+Nombre app mobile |iFood                 |
+Pais de Origen    |Mexico                |
+Selección Idiomas |si                    |
+Interactiva       |si                    |
+Intuitiva         |si                    |
+Gratuita          |si                    |
+web               |si                    |
+mobil             |si                    |
 
-
-
+![benchmark](imagenes/benchmark.png)
 
 ###### REFERENCIAS ((https://www.elruinaversal.com/2017/05/08/unesco-nombra-a-los-tacos-patrimonio-cultural-inmaterial-de-la-humanidad/)(https://masdemx.com/2018/07/artista-mexicano-ilustracion-dibujos-reinventa-comida-mexicana-dioses-aztecas/))
 ##### No se uso la api de google maps porque cobra 200 al mes url(https://vextramedia.com/google-maps-api-pasa-a-ser-de-pago/)
