@@ -1,3 +1,5 @@
+
+//Bienvenida
 const btnMenu = document.getElementById('bienvenidx');
 btnMenu.addEventListener('click', event => {
 
@@ -7,6 +9,7 @@ btnMenu.addEventListener('click', event => {
             'Bienvenidx ' + personx + '!¿Con hambre?¡'
     };
 });
+//ubicacion
 const btnLugar = document.getElementById('ubicacion');
 btnLugar.addEventListener('click', event => {
 
@@ -16,4 +19,3 @@ btnLugar.addEventListener('click', event => {
             'Ubicacion ' + lugar + '!¿Que te gustaria comer hoy?¡'
     };
 });
-
