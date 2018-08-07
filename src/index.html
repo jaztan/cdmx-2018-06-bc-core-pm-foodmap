@@ -11,11 +11,11 @@
 </head>
 
 <body>
-
-    <h1>¡Tacos a mi !</h1>
-    <h2>Te ayudaremos a encontrar los mejores tacos de la ciudad
-        <br> Para poder aplacar esa hambre feroz.</h2>
-
+        <h1>¡Tacos a mi !</h1>
+<center> <img id="logo" src="../imagenes/logotacosami_opt.png"></center>
+   
+    <h3>"Te ayudaremos a encontrar los mejores tacos de la ciudad
+        <br> Para poder aplacar esa hambre feroz"</h3>
     <form id="introduccion">
         <input type="button" id="bienvenidx" value="BienvenidX">
         <p id="saludo"></p>
@@ -23,7 +23,9 @@
     <form id="opciones">
         <input type="button" id="ubicacion" value="Ubicacion">
         <p id="lugar"></p>
+       
     </form>
+    <input type="image" src="../imagenes/mapasgif.gif">
     <form>
         <select id="mi-menu">
             <option id="tacos" value="Tacos">Tacos</option>
@@ -34,7 +36,7 @@
             <option id="canasta" value="Canasta">Canasta</option>
         </select>
         <div id="eleccion"></div>
-    
+    <br>
     <a href="#openModal"> !Los mejores¡ </a>
 </form>
     <div id="openModal" class="modalDialog">
@@ -46,10 +48,8 @@
             </h2>
         </div>
     </div>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   
     <script src="index.js"></script>
     <script src="menu.js"></script>
-
 </body>
-
 </html>
